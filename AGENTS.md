@@ -1,6 +1,7 @@
-# Agent Instructions
+# CLAUDE.md
 
-This file provides guidance to Claude Code and other AI agents working with this repository.
+This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+
 See [API_DESIGN_GUIDELINES.md](API_DESIGN_GUIDELINES.md) for CLI command naming, flag conventions, and output format rules.
 
 ## Commands
