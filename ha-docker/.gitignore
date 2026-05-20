@@ -1,0 +1,13 @@
+# HA runtime data
+ha-config/.storage/
+ha-config/home-assistant.log
+ha-config/home-assistant_v2.db
+ha-config/home-assistant_v2.db-shm
+ha-config/home-assistant_v2.db-wal
+ha-config/.cloud/
+ha-config/deps/
+ha-config/tts/
+ha-config/secrets.yaml
+
+# PyLoxone is copied here by setup.ps1, not committed
+ha-config/custom_components/
