@@ -143,6 +143,8 @@ subcmd_help!(help_ctx_rename, "ctx", "rename");
 subcmd_help!(help_ctx_init, "ctx", "init");
 subcmd_help!(help_ctx_migrate, "ctx", "migrate");
 subcmd_help!(help_completions, "completions");
+subcmd_help!(help_schema, "schema");
+subcmd_help!(help_mcp, "mcp");
 
 // ── Global flags accepted with subcommands ─────────────────────────────────
 

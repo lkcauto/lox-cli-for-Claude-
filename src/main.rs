@@ -860,6 +860,8 @@ pub(crate) enum Cmd {
         /// Show schema for a specific command (e.g. "blind", "light")
         command: Option<String>,
     },
+    /// Run an MCP (Model Context Protocol) stdio server for AI assistant integration
+    Mcp,
 }
 
 #[derive(Subcommand)]
@@ -1516,6 +1518,7 @@ fn run(cli: Cli) -> Result<()> {
             commands::config_cmd::cmd_completions(&ctx, shell, install)
         }
         Cmd::Schema { command } => commands::config_cmd::cmd_schema(&ctx, command),
+        Cmd::Mcp => commands::mcp::cmd_mcp(&ctx),
     }
 }
 

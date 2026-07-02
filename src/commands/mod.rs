@@ -2,6 +2,7 @@ pub mod config_cmd;
 pub mod control;
 pub mod ctx;
 pub mod inspect;
+pub mod mcp;
 pub mod system;
 
 pub struct RunContext {
