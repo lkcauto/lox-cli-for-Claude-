@@ -1,0 +1,9 @@
+default_config:
+
+homeassistant:
+  packages: !include_dir_named packages
+
+logger:
+  default: warning
+  logs:
+    custom_components.loxone: debug

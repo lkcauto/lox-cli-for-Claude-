@@ -6,3 +6,6 @@
 
 # bv (beads viewer) local config and caches
 .bv/
+
+# Beads / Dolt files (added by bd init)
+.beads-credential-key
